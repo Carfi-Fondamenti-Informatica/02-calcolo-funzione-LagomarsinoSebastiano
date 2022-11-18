@@ -2,17 +2,16 @@
 
 using namespace std;
 int main() {
-    float a=0,b=0,x=0,y=0,z;
-    cout<<"mostrare valori a,b,x,y";
+    float a=0,b=0,x=0,y=0,z=0;
     cin>>a>>b>>x>>y;
     if(x<0&&y>0){
         z=a*x-b*y;
     }
     else if(x>=0&&y<=0){
-    z=a*(x*2)-b*y;
+    z=a*(x*x)-b*y;
     }
     else{
-    z=a*x+b*(y*2);
+    z=a*x+b*(y*y);
     }
     cout<<z<<endl;
     return 0;
